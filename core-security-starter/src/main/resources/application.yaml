@@ -1,0 +1,9 @@
+logging:
+  level:
+    org.springframework.security: TRACE
+server:
+  port: 20800
+security:
+  jwt:
+    secret: very-long-secret-key-at-least-32-bytes
+    expiry: 15m
