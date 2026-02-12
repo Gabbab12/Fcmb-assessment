@@ -45,7 +45,7 @@ A demo Spring Boot application that:
 
 # How to Build the Project
 From the root directory (fcmb-assessment-parent):
-__run : mvn clean install_
+___run : mvn clean install__
 
 This will:
 . Build core-security-starter
@@ -58,6 +58,9 @@ After building successfully:
     . mvn spring-boot:run
 Or run from IntelliJ by starting:
     . SampleApplication.java
+
+How to run the test:
+__run: mvn clean test__
 
 The application run on :
   . http://localhost:20800
